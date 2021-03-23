@@ -1,38 +1,119 @@
+p {
+	text-align: justify;
+	text-indent: 3em;
+}
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 20vmin;
+	pointer-events: none;
 }
-
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	/* background-color: #282c34; */
+	min-height: 10vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
+}
+.navbar-header {
+	display: block;
+}
+.to-top {
+	top: -111px;
+}
+ul li a.active {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.partner {
+	display: inline-block;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+.partner img {
+	max-width: 10em;
+	max-height: 100%;
+}
+.map {
+	position: relative;
+	overflow: hidden;
+}
+.map a {
+	color: #eee;
+	font-size: 12px;
+	position: absolute;
+	top: 0px;
+}
+.map iframe {
+	position: relative;
+	border: 0;
+}
+.footer {
+	background-color: #ee6e73;
+	height: 64px;
+	line-height: 64px;
+	color: #fff;
+}
+.sidenav-overlay {
+	left: 300px !important;
+}
+.small-img {
+	width: 150px;
+}
+nav {
+	/* opacity: 0; */
+	animation: become-visible 0.4s ease-in;
+}
+.container {
+	animation: become-visible 0.5s ease-in;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotateY(0deg);
+	}
+	to {
+		transform: rotateY(360deg);
+	}
+}
+@keyframes become-visible {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
