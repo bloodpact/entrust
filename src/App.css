@@ -100,6 +100,21 @@ nav {
 .container {
 	animation: become-visible 0.5s ease-in;
 }
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex > div {
+	flex: 50%;
+}
+.flex img {
+	width: auto !important;
+	/* display: inline-block !important; */
+}
+.card-image {
+	display: flex !important;
+	justify-content: center;
+}
 
 @keyframes App-logo-spin {
 	from {
