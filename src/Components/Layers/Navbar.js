@@ -4,8 +4,8 @@ import { NavLink  } from "react-router-dom";
 function Navbar(props) {
     const [isTop, setIsTop] = React.useState(true)
     React.useEffect(()=>{
-        document.addEventListener('scroll', () => {
-            const isTopEl = window.scrollY < 100;
+        document.addEventListener('wheel', () => {
+            const isTopEl = window.scrollY < 78;
             if (isTopEl !== isTop) {
                 setIsTop(isTopEl)
             } else{
@@ -15,7 +15,7 @@ function Navbar(props) {
     },[])
     return (
         <>  
-            <header className="App-header" style={isTop?{display:'block'}:{display:'none'}}>
+            <header className="App-header" style={isTop?{visibility:'initial'}:{visibility:'hidden'}}>
                 <img src={logo} className="App-logo" alt="logo" /> 
             </header>
             <div className={isTop?'navbar-header':'navbar-fixed'} >

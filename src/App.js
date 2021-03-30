@@ -34,7 +34,7 @@ function App() {
           </Router>
         </div>
         <Footer/>
-      </div>
+     </div>
     </div>
   );
 }

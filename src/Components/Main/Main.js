@@ -47,8 +47,7 @@ function Main(props) {
 				</p>
 			</div>
 			<h3>Наши клиенты:</h3>
-			<div className="row">
-				<div className="col 12"></div>
+			<div className="row flex">
 				{partners.map((el) => {
 					return (
 						<div key={el.img} className="partner">
