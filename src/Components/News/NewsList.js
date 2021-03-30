@@ -9,8 +9,8 @@ function NewsList(props) {
 	}, []);
 	return (
 		<div className="container">
-			<h1>Информационный блок</h1>
-			{newsArray.map((el) => (
+			<h1>Новости</h1>
+			{news.map((el) => (
 				<NewsItem key={el.title} news={el} />
 			))}
 		</div>
