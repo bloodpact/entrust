@@ -1,6 +1,5 @@
 import React from 'react';
 import ProductItem from './ProductItem';
-import productDesc from '../../Misc/products/products.json';
 import hm10_b from '../../Misc/products/hm10.png';
 import temperature from '../../Misc/products/temp.png';
 import pressure from '../../Misc/products/pressure.png';
