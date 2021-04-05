@@ -1,6 +1,20 @@
-[{"date":"2021-10-07", "title":"Lorem Ipsum1", "news":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, eligendi facilis! Sapiente, voluptatum ratione alias tempora, maiores at doloremque eum beatae neque, corporis sequi consectetur numquam provident. Assumenda exercitationem error delectus fuga incidunt sed, quae debitis adipisci veniam consequatur pariatur!"},
-    {"date":"2021-10-07", "title":"Lorem Ipsum1.1", "news":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, eligendi facilis! Sapiente, voluptatum ratione alias tempora, maiores at doloremque eum beatae neque, corporis sequi consectetur numquam provident. Assumenda exercitationem error delectus fuga incidunt sed, quae debitis adipisci veniam consequatur pariatur!"},
-    {"date":"2021-10-07", "title":"Lorem Ipsum2", "news":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, eligendi facilis! Sapiente, voluptatum ratione alias tempora, maiores at doloremque eum beatae neque, corporis sequi consectetur numquam provident. Assumenda exercitationem error delectus fuga incidunt sed, quae debitis adipisci veniam consequatur pariatur!"},
-    {"date":"2021-10-07", "title":"Lorem Ipsum3", "news":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, eligendi facilis! Sapiente, voluptatum ratione alias tempora, maiores at doloremque eum beatae neque, corporis sequi consectetur numquam provident. Assumenda exercitationem error delectus fuga incidunt sed, quae debitis adipisci veniam consequatur pariatur!"},
-    {"date":"2021-10-07", "title":"Lorem Ipsum4", "news":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, eligendi facilis! Sapiente, voluptatum ratione alias tempora, maiores at doloremque eum beatae neque, corporis sequi consectetur numquam provident. Assumenda exercitationem error delectus fuga incidunt sed, quae debitis adipisci veniam consequatur pariatur!"},
-    {"date":"2021-10-07", "title":"Lorem Ipsum4.1", "news":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, eligendi facilis! Sapiente, voluptatum ratione alias tempora, maiores at doloremque eum beatae neque, corporis sequi consectetur numquam provident. Assumenda exercitationem error delectus fuga incidunt sed, quae debitis adipisci veniam consequatur pariatur!"}]
+[
+	{
+		"id": 1,
+		"date": "2021-04-05",
+		"title": "26-29 апреля 2021 в Москве пройдет выставка НЕФТЕГАЗ 2021.",
+		"news": "Выставка «Нефтегаз», предоставляет уникальную возможность производителям и поставщикам из разных стран продемонстрировать свое новейшее нефтегазовое и нефтеперерабатывающее оборудование и технологии, установить и расширить деловые контакты, обсудить широкий круг стоящих перед отраслью вопросов."
+	},
+	{
+		"id": 2,
+		"date": "2021-03-15",
+		"title": "16 апреля 2021 года в городе Самаре пройдет VI региональная конференция «Российские средства автоматизации для предприятий энергетики, нефтяной и газовой промышленности»",
+		"news": "Организаторами мероприятия выступают ведущие отечественные компании – лидеры в области разработки и производства средств автоматизации. Программа события представит собой короткое пленарное заседание и непосредственное общение на стендах специализированных секций «Расходомеры», «Средства измерения и сигнализации уровня», «Средства измерения давления», «Средства измерения температуры», «Метрологическое оборудование и эталонные средства измерения», «Средства защиты от воздействия агрессивных рабочих сред», «Аналитический контроль жидких и газообразных сред»."
+	},
+	{
+		"id": 3,
+		"date": "2021-02-02",
+		"title": "Вступили в силу законодательные поправки в части поверки средств измерений.",
+		"news": "Обращаем ваше внимание, что с 01 января 2021 года вступил в действие Приказ Минпромторга РФ от 31.07.2020 №2510 «Об утверждении порядка проведения поверки средств измерений, требований к знаку поверки и содержанию свидетельства о поверке. Теперь, запись о результатах поверки СИ находится в Федеральном информационном фонде по обеспечению единства измерений (ФГИС «Аршин») и является единственным юридически значимым подтверждением результатов поверки. Выдача бумажных свидетельств о поверке будет осуществляться теперь только по желанию владельца средства измерений или лица, представившего его на поверку."
+	}
+]
