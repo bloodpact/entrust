@@ -5,7 +5,7 @@ function Contacts(props) {
 		<div className="container">
 			<div className="row">
 				<h1>Контакты</h1>
-				<p>Телефон: 8-888-888-88-88</p>
+				<p>Телефон: (812) 602-70-29</p>
 				<p>e-mail: email@email</p>
 			</div>
 			<div className="row">
